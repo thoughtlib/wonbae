@@ -7,10 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-<<<<<<< HEAD
-        return "home1";
-=======
-        return "home2-1";
->>>>>>> feature/2
+        return "home1-1";
     } 
 }
