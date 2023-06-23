@@ -1,22 +1,12 @@
-logging:
-  file:
-    path: /data/back-log
-    max-size: 50MB
-    max-history: 14
-  level:
-    root: warn
-    org.hibernate.SQL: warn
 spring:
-  devtools:
-    livereload:
-      enabled: true
-  servlet:
-    multipart:
-      max-file-size: 1000MB
-      max-request-size: 1000MB
-  mvc:
-    view:
-      prefix: /WEB-INF/views/
-      suffix: .jsp
-server:
-  port: 8080
+  profiles:
+    active: dev
+
+# logging:
+#   level:
+#     jdbc: INFO
+#     com.thoughtlib.springbatchpractice: INFO
+#     org.hibernate.SQL: INFO
+#     org.hibernate.type: INFO
+#   file:
+#     path: /tmp
