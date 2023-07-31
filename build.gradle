@@ -19,6 +19,7 @@ dependencies {
 	// implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.projectlombok:lombok'
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
 	implementation 'org.mapstruct:mapstruct:1.4.2.Final'
@@ -26,8 +27,7 @@ dependencies {
 	implementation 'com.querydsl:querydsl-jpa:4.2.2'
 	implementation 'com.querydsl:querydsl-core:4.2.2'
 	implementation 'com.querydsl:querydsl-apt:4.2.2'
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	implementation 'javax.servlet:jstl:1.2'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'	
 	implementation group: 'javax.json', name: 'javax.json-api', version: '1.0'
 	implementation group: 'org.glassfish', name: 'javax.json', version: '1.0.4'
 
